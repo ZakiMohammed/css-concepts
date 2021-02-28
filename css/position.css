@@ -1,0 +1,40 @@
+body {
+    padding: 20px;
+}
+.container {
+    background-color: #ffeaa7;
+    border: 3px solid #444;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    position: relative;
+}
+.container .item {
+    padding: 20px;
+}
+.container .item .price {
+    background-color: #fd79a8;
+    border: 3px solid #444;
+    border-radius: 10px;
+    padding: 5px;
+
+    float: right;
+    margin-top: 20px;
+}
+.container .discount {
+    background-color: #81ecec;
+    border: 3px solid #444;
+    border-radius: 10px;
+    padding: 5px;
+
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+.d-block {
+    display: block;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+@font-face {
+    font-family: Pacifico;
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+* {
+    font-family: 'Fredoka One', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+    /* color: rgba(108, 92, 231, 0.8); */
+    color: #fff;
+}
+
+.box {
+    background-color: #fd79a8;
+    border: 3px solid #444;
+    /* padding */
+    /* -------------------------------------- */
+    padding: 20px;
+    /* padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    /* padding: top-bottom left-right; */
+    /* padding: 0 50px; */
+    /* padding: top-bottom left-right; */
+    /* padding: 50px 0; */
+    /* padding: top right bottom left - clockwise */
+    /* padding: 50px 100px 20px 30px; */
+    /* margin */
+    /* -------------------------------------- */
+    /* margin: 20px; */
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #ffeaa7;
+    border: 3px solid #444;
+    /* border-width: 3px; */
+    /* border-style: solid; */
+    /* border-color: #333; */
+    /* border-radius: 50%; for circle if the height-width is same */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.container .item {
+    background-color: #74b9ff;
+    border: 3px solid #444;
+    padding: 10px;
+}
+
+.container .item.item-center {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.container .item.item-top {
+    width: 100px;
+    margin-top: -50px;
+}
+
+.container .item.item-bottom {
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+.mt-4 {
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 6px 8px;
+    border-radius: 3px;
+}
+.btn.btn-primary {
+    background-color: #00b894;
+    border: 1px solid #00b894;
+}
+.btn.btn-primary:hover {
+    background-color: #55efc4;
+    border: 1px solid #55efc4;
+}
+.btn.btn-danger {
+    background-color: #d63031;
+    border: 1px solid #d63031;
+}
+.btn.btn-danger:hover {
+    background-color: #ff7675;
+    border: 1px solid #ff7675;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    /* border-spacing: 10px; */
+}
+.table thead tr th, 
+.table tbody tr td {
+    border: 3px solid #636e72;
+    padding: 5px;
+}
+.table.table-striped tbody tr:nth-child(odd) td {
+    background-color: #fab1a0;
+}
+
+.form-control {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #eee;
+    border-radius: 3px;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* #000 -> #fff */
